@@ -75,7 +75,9 @@ title: Tools, APIs & more
 
 ## Link of the Day
 
-AI https://intelligence.org/2017/10/13/fire-alarm/
+* AI https://intelligence.org/2017/10/13/fire-alarm/
+
+---
 
 ## Github
 
