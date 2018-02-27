@@ -5,9 +5,19 @@ There’s No Fire Alarm for Artificial General Intelligence:
 - Vera Zalica
 - Mayur Sanpurkar
 
+---
+
 - Odeta Shtrepi
 - Xhesilda Vogli
 - Pyae Phyo Kyaw
+
+---
+
+-Md Arman Bhuiyan
+-Munir Ahmed
+-SM Aktaruzzaman
+
+---
 
 - Biniyam Erana
 - Poonam Devi
