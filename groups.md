@@ -8,3 +8,7 @@ There’s No Fire Alarm for Artificial General Intelligence:
 - Odeta Shtrepi
 - Xhesilda Vogli
 - Pyae Phyo Kyaw
+
+- Biniyam Erana
+- Poonam Devi
+- Narvesh Pardhan
