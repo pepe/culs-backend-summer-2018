@@ -13,9 +13,9 @@ There’s No Fire Alarm for Artificial General Intelligence:
 
 ---
 
--Md Arman Bhuiyan
--Munir Ahmed
--SM Aktaruzzaman
+- Md Arman Bhuiyan
+- Munir Ahmed
+- SM Aktaruzzaman
 
 ---
 
