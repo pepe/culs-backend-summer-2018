@@ -22,3 +22,9 @@ There’s No Fire Alarm for Artificial General Intelligence:
 - Biniyam Erana
 - Poonam Devi
 - Narvesh Pardhan
+
+---
+
+- Vasiliki Theodorou
+- Muhammad Raufur Rahman
+- Apu Md Foyjur Rahman
