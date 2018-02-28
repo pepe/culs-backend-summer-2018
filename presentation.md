@@ -403,13 +403,6 @@ https://ar.al/notes/encouraging-individual-sovereignty-and-a-healthy-commons/
 
 ---
 
-## Real database
-
-* CMS and Commerce
-* Hands on
-
----
-
 ## Express.js statuses
 
 * Set on response
