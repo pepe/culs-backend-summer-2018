@@ -30,6 +30,14 @@ There’s No Fire Alarm for Artificial General Intelligence:
 - Narvesh Pardhan
 
 ---
+
+- Vasiliki Theodorou
+- Muhammad Raufur Rahman
+- Apu Md Foyjur Rahman
+
+---
+
 - Beisen Sultan
 - Elli Stergiadou
 - Aleazar Gobena 
+
