@@ -305,3 +305,122 @@ https://blog.rescuetime.com/nir-eyal-digital-distraction/
 * AWS Dynamo, Lambda - http://aws.amazon.com
 * OpenSensors - https://www.opensensors.io
 
+===
+
+---
+author: Josef Pospíšil
+date: 2017-02-28
+title: Storage
+---
+
+# Contemporary Backend Development
+
+---
+
+## Wednesday - Storage
+
+---
+
+## Link of the Day
+
+https://ar.al/notes/encouraging-individual-sovereignty-and-a-healthy-commons/
+
+---
+
+## Kinds 
+
+* File
+* Databases
+
+---
+
+## File formats
+
+* Binary
+* CSV
+* Markdown
+* XML
+* JSON
+
+---
+
+## Databases
+
+* Relational
+* Key/Value
+* Document
+* Graph
+
+---
+
+## Relational
+
+* MySQL
+* PostgreSQL
+* Oracle
+* MSSQL
+
+---
+
+## Key/Value
+
+* Redis
+* Riak
+* AWS DynamoDB
+* LevelDB
+
+---
+
+## Document
+
+* MongoDB
+* CouchDB
+* RethinkDB
+
+---
+
+## Graph
+
+* Neo4J
+* OrientDB
+* ArangoDB
+
+---
+
+## Search engines
+
+* Lucene
+* ElasticSearch
+* SolR
+
+---
+
+## MongoDB
+
+* JSON based
+* Dynamic Schema
+* Query Language
+
+---
+
+## Real database
+
+* CMS and Commerce
+* Hands on
+
+---
+
+## Express.js statuses
+
+* Set on response
+* No need for any other information
+
+---
+
+## Mongoose.js
+
+* Access MongoDB from JS
+* Very Simple API
+* Models
+* Querying
+
