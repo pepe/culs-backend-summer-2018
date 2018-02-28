@@ -28,3 +28,8 @@ There’s No Fire Alarm for Artificial General Intelligence:
 - Biniyam Erana
 - Poonam Devi
 - Narvesh Pardhan
+
+---
+- Beisen Sultan
+- Elli Stergiadou
+- Aleazar Gobena 
