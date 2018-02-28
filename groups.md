@@ -7,6 +7,12 @@ There’s No Fire Alarm for Artificial General Intelligence:
 
 ---
 
+- Himesha Prabhakara Wijekoon
+- Vipul Sharma
+- Rabendra Sreshta
+
+---
+
 - Odeta Shtrepi
 - Xhesilda Vogli
 - Pyae Phyo Kyaw
