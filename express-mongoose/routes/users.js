@@ -1,10 +1,10 @@
-var express = require('express');
-var router = express.Router();
-var mongoose = require('mongoose');
+const express = require('express');
+const router = express.Router();
+const mongoose = require('mongoose');
 
 mongoose.connect('mongodb://localhost/showrumbackend');
 
-var User = mongoose.model('User',
+const User = mongoose.model('User',
                           {
                             login: String,
                             password: String,
@@ -13,11 +13,9 @@ var User = mongoose.model('User',
                           });
 
 router.post('/', function(req, res, next) {
-  console.log("Creating user");
-  var body = req.body;
-  console.log(body);
+  const body = req.body;
   if (body.password == body.confirmation) {
-    var user = new User({
+    const user = new User({
       login: body.login,
       password: body.password,
       name: body.name,
@@ -26,7 +24,7 @@ router.post('/', function(req, res, next) {
 
     user.save(function (err) {
       if (err) {
-        console.log(err);
+        console.error(err);
         res.status(422);
         res.send();
       } else {
@@ -43,29 +41,27 @@ router.post('/', function(req, res, next) {
 });
 
 router.post('/authenticate', function(req, res, next) {
-  body = req.body;
-  console.log(body);
-  var user = User.findOne({login: body.login, password: body.password},
-                          "_id login",
-                          function(err, user) {
-                            if (err) {
-                              console.log(err);
-                              res.status(401);
-                              res.send();
-                            } else {
-                              console.log(user)
-                              if (user == null)
-                              {
-                                console.log(err);
+  const body = req.body;
+  const user = User.findOne({login: body.login, password: body.password},
+                            "_id login",
+                            function(err, user) {
+                              if (err) {
+                                console.error(err);
                                 res.status(401);
                                 res.send();
                               } else {
-                                res.status(200);
-                                res.send({login: user.login,
-                                          token: user.id});
+                                if (user == null)
+                                {
+                                  console.error(err);
+                                  res.status(401);
+                                  res.send();
+                                } else {
+                                  res.status(200);
+                                  res.send({login: user.login,
+                                            token: user.id});
+                                }
                               }
-                            }
-                          });
+                            });
 });
 
 module.exports = router;
