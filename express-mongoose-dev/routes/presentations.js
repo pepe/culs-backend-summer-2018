@@ -40,7 +40,6 @@ router.post('/', function(req, res, next) {
 
 router.get('/', function(req, res, next) {
   const token = req.headers.token;
-  const body = req.body;
 
   User.findOne({_id: ObjectID(token)})
     .then((user) => {
@@ -56,5 +55,43 @@ router.get('/', function(req, res, next) {
       }
     }).catch(sendError);
 });
+
+
+router.get('/:id', function(req, res, next) {
+  const token = req.headers.token;
+  const presentation_id = req.params.id;
+
+  User.findOne({_id: ObjectID(token)})
+    .then((user) => {
+      if (user != null) {
+        Presentation.findOne({user_id: ObjectID(token), _id: presentation_id})
+          .then((presentation) => {
+            res.status(200);
+            res.send(presentation);
+          }).catch(sendError);
+      } else {
+        res.status(401);
+        res.send();
+      }
+    }).catch(sendError);
+});
+
+router.delete('/:id', function(req, res, next) {
+  const token = req.headers.token;
+  const presentation_id = req.params.id;
+  User.findOne({_id: ObjectID(token)})
+    .then((user) => {
+      if (user != null) {
+        Presentation.remove({user_id: ObjectID(token), _id: presentation_id})
+          .then((presentation) => {
+            res.status(200);
+            res.send();
+          }).catch(sendError);
+      } else {
+        res.status(401);
+        res.send();
+      }
+    }).catch(sendError);
+})
 
 module.exports = router;

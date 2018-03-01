@@ -37,7 +37,7 @@ router.post('/authenticate', function(req, res, next) {
       .then((user) => {
         if (user == null)
         {
-          console.error("User does not exist");
+          console.error("User does not exist or password does not match");
           res.status(401);
           res.send();
         } else {
