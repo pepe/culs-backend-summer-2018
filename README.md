@@ -76,3 +76,8 @@ Information and code for my teaching on CULS in Prague, summer semester 2018
 - [ElasticSearch](https://www.elastic.co)
 - [Solr](https://lucene.apache.org/solr/)
 - [Mongoose](http://mongoosejs.com)
+
+### Thursday
+
+- [Link of the Day](https://auth0.com/blog/glossary-of-modern-javascript-concepts/)
+- [Docker Compose](https://docs.docker.com/compose/)

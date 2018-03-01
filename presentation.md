@@ -417,3 +417,39 @@ https://ar.al/notes/encouraging-individual-sovereignty-and-a-healthy-commons/
 * Models
 * Querying
 
+===
+
+---
+author: Josef Pospíšil
+date: 2017-03-01
+title: All together
+---
+
+# Contemporary Backend Development
+
+---
+
+## Thursday - All together
+
+---
+
+## Link of the Day
+
+https://auth0.com/blog/glossary-of-modern-javascript-concepts/
+
+---
+
+## What is needed for tomorrow
+
+* Clash
+* Project
+* Test
+
+---
+
+## Docker compose
+
+* Run more containers at once
+* Create links between them
+* Change attributes of Dockerfile
+
