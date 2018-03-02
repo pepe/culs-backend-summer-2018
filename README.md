@@ -81,3 +81,8 @@ Information and code for my teaching on CULS in Prague, summer semester 2018
 
 - [Link of the Day](https://auth0.com/blog/glossary-of-modern-javascript-concepts/)
 - [Docker Compose](https://docs.docker.com/compose/)
+
+
+### Friday
+
+- [Link of the Day](https://www.surveymonkey.com/collect/?sm=_2FmvC4nvkziURZAnjZbfRKMFu1rjMMqdI7O7A47bGu3k3YBtA9BUqbkMzPxVg0uWO)
