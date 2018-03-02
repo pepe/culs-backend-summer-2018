@@ -472,3 +472,7 @@ title: Final words
 ## Link of the Day
 
 https://www.surveymonkey.com/r/RNHG7DX
+
+---
+
+# +420 774 278 707
